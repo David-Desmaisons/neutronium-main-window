@@ -12,7 +12,7 @@ Vue component (Vue.js 2.0) to manage [Neutronium](https://github.com/David-Desma
 ##Tipical use:
 HTML:
 ```html
-  <neutronium-main-view name="fade" :window="viewModel.__window__">
+  <neutronium-main-view name="fade" :window="viewModel">
       <img src="./assets/logo.png">
       ...
   </neutronium-main-view>
