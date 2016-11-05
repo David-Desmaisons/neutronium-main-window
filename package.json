@@ -1,8 +1,8 @@
 {
-  "name": "neutronium_main_window",
+  "name": "neutronium-main-window",
   "version": "1.0.0",
   "description": "Vue component for Neutronium main window",
-  "main": "dist/NeutroniumMainWindow.vue",
+  "main": "src/NeutroniumMainWindow.vue",
   "keywords": [
     "vue.js",
     "Neutronium",

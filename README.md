@@ -1,15 +1,15 @@
 # Neutronium_main_window
 
 
-[![Npm download](https://img.shields.io/npm/dt/neutronium_main_window.svg?maxAge=2592000)](https://www.npmjs.com/package/neutronium_main_window)
-[![Npm version](https://img.shields.io/npm/v/neutronium_main_window.svg?maxAge=2592000)](https://www.npmjs.com/package/neutronium_main_window)
-[![MIT License](https://img.shields.io/github/license/David-Desmaisons/neutronium-main-window.svg)](https://github.com/David-Desmaisons/neutronium_main_window/blob/master/LICENSE)
+[![Npm download](https://img.shields.io/npm/dt/neutronium-main-window.svg?maxAge=2592000)](https://www.npmjs.com/package/neutronium-main-window)
+[![Npm version](https://img.shields.io/npm/v/neutronium-main-window.svg?maxAge=2592000)](https://www.npmjs.com/package/neutronium-main-window)
+[![MIT License](https://img.shields.io/github/license/David-Desmaisons/neutronium-main-window.svg)](https://github.com/David-Desmaisons/neutronium-main-window/blob/master/LICENSE)
 
 
 Vue component (Vue.js 2.0) to manage [Neutronium](https://github.com/David-Desmaisons/Neutronium) main view
 
 
-Tipical use:
+##Tipical use:
 HTML:
 ```html
   <neutronium-main-view name="fade" :window="viewModel.__window__">
@@ -21,7 +21,7 @@ HTML:
 javascript:
 
 ```javascript
-import NeutroniumMainWindow from 'NeutroniumMainWindow.vue'
+import NeutroniumMainWindow from 'neutronium-main-window.vue'
 
 export default {
   components:{
@@ -42,3 +42,10 @@ CSS:
 
 This component will allow transition when displaying a given view model.
 See [Neutronium documentation](https://github.com/David-Desmaisons/Neutronium/wiki) and [NeutroniumDemo](https://github.com/David-Desmaisons/NeutroniumDemo) for more details.
+
+
+##Instalation
+
+```
+npm install --save neutronium-main-window
+```
