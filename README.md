@@ -1,4 +1,4 @@
-# Neutronium_main_window
+# Neutronium main window
 
 
 [![Npm download](https://img.shields.io/npm/dt/neutronium-main-window.svg?maxAge=2592000)](https://www.npmjs.com/package/neutronium-main-window)
@@ -21,7 +21,7 @@ HTML:
 javascript:
 
 ```javascript
-import NeutroniumMainWindow from 'neutronium-main-window.vue'
+import NeutroniumMainWindow from 'neutronium-main-window'
 
 export default {
   components:{
