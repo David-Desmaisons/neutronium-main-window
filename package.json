@@ -10,7 +10,7 @@
   ],
   "devDependencies" : {
     "vue": "^2.0.3"
-  }
+  },
   "author": "David Desmaisons",
   "license": "MIT",
   "bugs": {
