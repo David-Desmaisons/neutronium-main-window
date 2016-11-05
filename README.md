@@ -10,14 +10,28 @@ Vue component (Vue.js 2.0) to manage [Neutronium](https://github.com/David-Desma
 
 
 Tipical use:
-``` html
-  <neutronium-main name="fade" :window="viewModel.__window__">
+HTML:
+```html
+  <neutronium-main-view name="fade" :window="viewModel.__window__">
       <img src="./assets/logo.png">
       ...
-  </neutronium-main>
+  </neutronium-main-view>
 ```
 
-``` html
+javascript:
+
+```javascript
+import NeutroniumMainWindow from 'NeutroniumMainWindow.vue'
+
+export default {
+  components:{
+    NeutroniumMainWindow
+  },
+  //....
+```
+
+CSS:
+```css
 .fade-enter-active, .fade-leave-active {
   transition: opacity .2s
 }
@@ -27,4 +41,4 @@ Tipical use:
 ```
 
 This component will allow transition when displaying a given view model.
-See [Neutronium documentation](https://github.com/David-Desmaisons/Neutronium/wiki) for more detail.
+See [Neutronium documentation](https://github.com/David-Desmaisons/Neutronium/wiki) and [NeutroniumDemo](https://github.com/David-Desmaisons/NeutroniumDemo) for more details.
