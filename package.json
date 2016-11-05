@@ -1,0 +1,25 @@
+{
+  "name": "neutronium_main_window",
+  "version": "1.0.0",
+  "description": "Vue component for Neutronium main window",
+  "main": "dist/NeutroniumMainWindow.vue",
+  "keywords": [
+    "vue.js",
+    "Neutronium",
+    "transition"
+  ],
+  "devDependencies" : {
+    "vue": "^2.0.3"
+  }
+  "author": "David Desmaisons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/David-Desmaisons/neutronium-main-window/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/David-Desmaisons/neutronium-main-window#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/David-Desmaisons/neutronium-main-window.git"
+  }
+}
