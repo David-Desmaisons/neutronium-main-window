@@ -26,8 +26,8 @@ export default {
   },
   computed: {
     window(){
-      return this.mainViewModel.__window__
-    }
+      return this.mainViewModel.__window__;
+    },
     state () {
       return this.window.State.name;
     }
