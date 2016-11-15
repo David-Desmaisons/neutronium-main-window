@@ -6,7 +6,21 @@
 [![MIT License](https://img.shields.io/github/license/David-Desmaisons/neutronium-main-window.svg)](https://github.com/David-Desmaisons/neutronium-main-window/blob/master/LICENSE)
 
 
-Vue component (Vue.js 2.0) to manage [Neutronium](https://github.com/David-Desmaisons/Neutronium) main view
+Vue component (Vue.js 2.0) to manage [Neutronium](https://github.com/David-Desmaisons/Neutronium) main view.
+This component will trigger entering and closing animation corresponding to Neutronium navigation
+
+### Props
+#### main-view-model
+Type: `Array`<br>
+Required: `true`<br>
+
+The main view model.
+
+#### name
+Type: `String`<br>
+Required: `false`
+
+Same as vue.js `transition` name prop.
 
 
 ##Tipical use:
