@@ -58,7 +58,7 @@ This component will allow transition when displaying a given view model.
 See [Neutronium documentation](https://github.com/David-Desmaisons/Neutronium/wiki) and [NeutroniumDemo](https://github.com/David-Desmaisons/NeutroniumDemo) for more details.
 
 
-##Instalation
+## Instalation
 
 ```
 npm install --save neutronium-main-window
