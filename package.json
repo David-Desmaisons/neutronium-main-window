@@ -1,6 +1,6 @@
 {
   "name": "neutronium-main-window",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "Vue component for Neutronium main window",
   "main": "src/NeutroniumMainWindow.vue",
   "keywords": [
@@ -9,7 +9,7 @@
     "transition"
   ],
   "devDependencies" : {
-    "vue": "^2.0.3"
+    "vue": "^2.5.2"
   },
   "author": "David Desmaisons",
   "license": "MIT",

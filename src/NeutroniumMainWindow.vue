@@ -9,7 +9,7 @@
 
 <script>
 const props= {
-  mainViewModel: {
+  window: {
     type: Object,
     required: true
   },
@@ -25,9 +25,6 @@ export default {
     })
   },
   computed: {
-    window(){
-      return this.mainViewModel.__window__;
-    },
     state () {
       return this.window.State.name;
     }
