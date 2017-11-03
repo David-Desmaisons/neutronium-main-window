@@ -1,4 +1,4 @@
-# Neutronium_main_window
+# Neutronium main window
 
 
 [![Npm download](https://img.shields.io/npm/dt/neutronium-main-window.svg?maxAge=2592000)](https://www.npmjs.com/package/neutronium-main-window)
@@ -6,7 +6,21 @@
 [![MIT License](https://img.shields.io/github/license/David-Desmaisons/neutronium-main-window.svg)](https://github.com/David-Desmaisons/neutronium-main-window/blob/master/LICENSE)
 
 
-Vue component (Vue.js 2.0) to manage [Neutronium](https://github.com/David-Desmaisons/Neutronium) main view
+Vue component (Vue.js 2.0) to manage [Neutronium](https://github.com/David-Desmaisons/Neutronium) main view.
+This component will trigger entering and closing animation corresponding to Neutronium navigation
+
+### Props
+#### main-view-model
+Type: `Array`<br>
+Required: `true`<br>
+
+The main view model.
+
+#### name
+Type: `String`<br>
+Required: `false`
+
+Same as vue.js `transition` name prop.
 
 
 ##Tipical use:
@@ -21,7 +35,7 @@ HTML:
 javascript:
 
 ```javascript
-import NeutroniumMainWindow from 'neutronium-main-window.vue'
+import NeutroniumMainWindow from 'neutronium-main-window'
 
 export default {
   components:{
@@ -44,7 +58,7 @@ This component will allow transition when displaying a given view model.
 See [Neutronium documentation](https://github.com/David-Desmaisons/Neutronium/wiki) and [NeutroniumDemo](https://github.com/David-Desmaisons/NeutroniumDemo) for more details.
 
 
-##Instalation
+## Instalation
 
 ```
 npm install --save neutronium-main-window
