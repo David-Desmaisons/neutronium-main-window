@@ -10,8 +10,8 @@ Vue component (Vue.js 2.0) to manage [Neutronium](https://github.com/David-Desma
 This component will trigger entering and closing animation corresponding to Neutronium navigation
 
 ### Props
-#### main-view-model
-Type: `Array`<br>
+#### window
+Type: `Object`<br>
 Required: `true`<br>
 
 The main view model.
@@ -26,7 +26,7 @@ Same as vue.js `transition` name prop.
 ##Tipical use:
 HTML:
 ```html
-  <neutronium-main-view name="fade" :main-view-model="viewModel">
+  <neutronium-main-view name="fade" :window="__window__">
       <img src="./assets/logo.png">
       ...
   </neutronium-main-view>
